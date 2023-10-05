@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+<title> 
+    Countdown!
+</title>
+
+<link rel="stylesheet" type="text/css" href="stylesC.css"/>
+</head>
+
+<body>
+
+    <div class="title">
+    <h1> 4 Science 2 </h1>
+
+<h2> 
+	<b> <I> 
+			Vision Statement: Through the collaborative efforts of all stakeholders in education, we envision a "Quality Child Friendly Environment", commited to excellence!<br>
+			The Class of 4 Scince 2 (2023- 24) Presents: 
+	</I> </b>
+</h2>
+</div>
+
+
+<nav>
+
+	<ul>
+		<li><a href="mission.html"> Mission Statement!</a></li>
+		<li><a href="class.Html"> Class!</a></li>
+	</ul>
+
+</nav>
+
+<p><I><b>"Let's rally together for these next couple months and make every moment count, <br>
+    because as Eleanor Roosevelt wisely said, 'The future belongs to those who believe in the beauty of their dreams.'<br>
+     With determination and hard work, we can ensure that each one of us walks across that graduation stage with pride, <br>
+     ready to embrace the limitless opportunities that await us." 🎓💪 #GraduationGoals</b></I></p>
+
+
+<div class="main">
+
+<h3>Days Till Graduation..!</h3>
+
+<div class="launch">
+    <div>
+        <p id="days">00</p>
+        <span>Days</span>
+    </div>
+
+    <div>
+        <p id="hours">00</p>
+        <span>Hours</span>
+    </div>
+
+    <div>
+        <p id="minutes">00</p>
+        <span>Minutes</span>
+    </div>
+
+    <div>
+        <p id="seconds">00</p>
+        <span>Seconds</span>
+    </div>
+</div>
+</div>
+
+<img src="lvl3.jpg" class="US">
+<img src="us.jpg" class="cl">
+<img src="us2.jpg" class="uv">
+<img src="uss.jpg" class="uss">
+
+
+<script>
+    var countDownDate = new Date("June 12, 2024 00:00:00").getTime();
+    var x = setInterval(function(){  
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24))/ (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60))/ (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60))/ 1000);
+
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("minutes").innerHTML = minutes;
+        document.getElementById("seconds").innerHTML = seconds;
+
+        if(distance < 0){
+            clearInterval(x);
+            document.getElementById("days").innerHTML = "00";
+            document.getElementById("hours").innerHTML = "00";
+            document.getElementById("minutes").innerHTML = "00";
+            document.getElementById("seconds").innerHTML = "00";
+        }
+},1000);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,415 @@
+body{
+	background-color: #9900ff;
+}
+h1{
+	font-family: Franklin Gothic Medium;
+	text-align: center;	
+	color:#ffffff;
+}
+
+h2{
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;	
+	color:#ffffff;
+}
+
+
+p{
+	font-family:'Times New Roman', Times, serif;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	
+}
+.title{
+	width:65%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:rgb(183, 0, 255);
+	border: double;
+	border-color: rgb(255, 255, 255);
+
+}
+
+nav{
+	display: flex ;
+	width: 100%;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 5px 0;
+}
+
+nav ul{
+	flex: 1;
+	text-align: center;
+	padding-top: 30px;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 10px 30px;
+}
+
+nav ul li a{
+	color:azure;
+	text-decoration: none;
+	position: relative;
+}
+
+nav ul li a::after{
+	content:'';
+	width: 75%;
+	height: 3px;
+	position: absolute;
+	bottom: -5px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #fff;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after{
+    width: 50px;
+}
+
+p{
+	font-family: Franklin Gothic Medium;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	
+}
+
+
+img{
+    flex-wrap: wrap;
+    float: center;
+    margin: 10px;
+	width:165px;
+	height:180px;
+	border: double;
+	border-color: rgb(255, 255, 255);
+}
+
+.ander{
+    float: left;
+    flex-wrap: wrap;
+    width: 10%;
+    height: auto;
+	background-color:rgb(183, 0, 255);
+	border: double;
+	border-color: #CBC3E3;
+	
+}
+
+.Tyra{
+     float: left;
+     flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .jake{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .shall{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .Nidi{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .sel{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .addy{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .shaq{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .nev{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .les{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .leb{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .san{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .nes{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .des{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .kel{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .dem{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .jaf{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .Niki{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .cat{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .Aj{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .kam{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .Mark{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .Lit{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .Sheng{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .Lat{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .Blos{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .Alana{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .Zyra{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .Asha{
+    float: left;
+    flex-wrap: wrap;
+     width: 10%;
+     height: auto;
+     background-color:rgb(183, 0, 255);
+     border: double;
+     border-color: #CBC3E3;
+     
+ }
+
+ .main{
+    width: 100%;
+    margin: 0 75px;
+}
